@@ -1,16 +1,5 @@
-@ECHO OFF
-
-SET /a branch=%1
-SET /a msg=%2
-
-SET /a pass="atomic786"
-
 git add .
-git commit -m "%msg%"
-git push origin %branch%
+git commit -m %2
+git push origin %1
 
-ECHO %pass%
-
-PAUSE
-
-@REM hello world
+ECHO atomic786
