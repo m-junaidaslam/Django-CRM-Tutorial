@@ -14,14 +14,14 @@ Customer Relationship Management (CRM) Application
 
 1. Create project folder and create new virtual environment and activate it using following commads:
 
-   ```sh
+   ```bash
    python -m venv env
    env\Scripts\activate
    ```
 
 1. Install django and create **Django Projetw** using following commands:
 
-   ```sh
+   ```bash
    pip install django
    django-admin startproject <ProjectName(crm)>
    ```
@@ -35,12 +35,14 @@ Customer Relationship Management (CRM) Application
 
 1. Add app to Django project using:
 
-   ```python manage.py startapp <app-name(accounts)>
-
+   ```bash
+   python manage.py startapp <app-name(accounts)>
    ```
 
 ## Run Application
 
 1. To run django application:
 
-   `python manage.py runserver`
+   ```bash
+   python manage.py runserver
+   ```
