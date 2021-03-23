@@ -72,3 +72,13 @@ Customer Relationship Management (CRM) Application
    ```
 
    > To commit migrations, again use 'migrate' command.
+
+1. To open Django Shell, either for testing queries to database or for any other reason:
+
+   ```bash
+   python manage.py shell
+   ```
+
+   > This shell is `Python Shell` but with added Django functionality
+
+   > Sample queries are placed in a file `./accounts/queryDemo.py`.
