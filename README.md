@@ -39,10 +39,36 @@ Customer Relationship Management (CRM) Application
    python manage.py startapp <app-name(accounts)>
    ```
 
-## Run Application
+## Django Commands
 
 1. To run django application:
 
    ```bash
    python manage.py runserver
    ```
+
+1. To create Django Project:
+
+   ```bash
+   django-admin startproject <ProjectName>
+   ```
+
+1. To create Django Application inside Django Project:
+
+   ```bash
+   python manage.py startapp <ApplicationName>
+   ```
+
+1. To apply basic database structure or apply migrations:
+
+   ```bash
+   python manage.py migrate
+   ```
+
+1. To prepare database for new migrations and compile changes in `models.py`, run:
+
+   ```bash
+   python manage.py makemigrations
+   ```
+
+   > To commit migrations, again use 'migrate' command.
